@@ -1,1 +1,51 @@
-
+/* Reset some default styles */
+body, h1, h2, p, ul, li, button {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Set a background color and font for the entire page */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 20px;
+    text-align: center;
+  }
+  
+  /* Style the title */
+  title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  /* Style the solve button */
+  #solve-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  
+  /* Style the timer */
+  #timer {
+    font-size: 18px;
+    margin-top: 20px;
+  }
+  
+  /* Style the start and stop buttons */
+  #start-button, #stop-button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+  /* Add some spacing between elements */
+  br {
+    margin-top: 10px;
+  }
